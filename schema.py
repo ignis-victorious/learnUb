@@ -10,3 +10,6 @@ class Hero(SQLModel, table=True):
     name: str
     secret_name: str
     age: int | None = None
+
+
+# Create rows here?
